@@ -1,0 +1,125 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+    <title>Exemplo HTML 4 - CSS</title>
+</head>
+<body>
+    <style>
+        /*  #txtNome {
+            background: red;
+        }
+
+        body {
+            background-color: lightblue;
+        }
+
+        div {
+            border: solid 1px black;
+        }
+
+        .control-label {
+            color: red;
+        }*/
+    </style>
+    <form id="Formulario">
+        <fieldset>
+            <legend>CSS Utilizados:</legend>
+            <div class="list-group">
+                <button type="button" class="list-group-item"><a href="http://hugoribeiro.com.br/Curso_HTML/css/c03.htm">Aprendizado - Customizado </a></button>
+                <button type="button" class="list-group-item"><a href="https://getbootstrap.com/docs/3.3/components/">Boostrap Components</a></button>
+                <button type="button" class="list-group-item"><a href="https://bootsnipp.com/">bootsnipp Components</a></button>
+                <button type="button" class="list-group-item"><a href="https://style.fluig.com/">GuidLine Fluig</a></button>
+                <button type="button" class="list-group-item"><a href="http://tdn.totvs.com/display/UX/Guideline+TOTVS+V12">GuidLine THF</a></button>
+            </div>
+        </fieldset>
+    </form>
+
+    <form class="form-horizontal">
+        <fieldset>
+
+            <!-- Form Name -->
+            <legend>Formulario</legend>
+
+            <!-- Text input-->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="txtNome">Nome</label>
+                <div class="col-md-5">
+                    <input id="txtNome" name="txtNome" type="text" placeholder="1º Nome" class="form-control input-md" required="true">
+                    <span class="help-block">Ajuda</span>
+                </div>
+            </div>
+
+            <!-- Text input-->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="txtSobNome">Sobrenome</label>
+                <div class="col-md-5">
+                    <input id="txtSobNome" name="txtSobNome" type="text" placeholder="Ultimo nome" class="form-control input-md" required="true">
+                    <span class="help-block">Ajuda</span>
+                </div>
+            </div>
+
+            <!-- Multiple Radios -->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="rdbSexo">Sexo</label>
+                <div class="col-md-4">
+                    <div class="radio">
+                        <label for="rdbSexo-0">
+                            <input type="radio" name="rdbSexo" id="rdbSexo-0" value="0" checked="checked">
+                            Feminino
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label for="rdbSexo-1">
+                            <input type="radio" name="rdbSexo" id="rdbSexo-1" value="1">
+                            Masculino
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Text input-->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="txtCep">Endereço</label>
+                <div class="col-md-5">
+                    <input id="txtCep" name="txtCep" type="text" placeholder="Endereço" class="form-control input-md">
+                    <span class="help-block">Ajuda</span>
+                </div>
+            </div>
+
+            <!-- Text input-->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="txtCidade">Cidade</label>
+                <div class="col-md-5">
+                    <input id="txtCidade" name="txtCidade" type="text" placeholder="Cidade" class="form-control input-md">
+                    <span class="help-block">Ajuda</span>
+                </div>
+            </div>
+
+            <!-- Select Basic -->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="sltEstado">Estado</label>
+                <div class="col-md-4">
+                    <select id="sltEstado" name="sltEstado" class="form-control">
+                        <option value="1">MG</option>
+                        <option value="2">SP</option>
+                        <option value="3">RJ</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Button (Double) -->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="btn"></label>
+                <div class="col-md-8">
+                    <button id="btn" name="btn" class="btn btn-success">Save</button>
+                    <button id="btnCancel" name="btnCancel" class="btn btn-danger">Cancel</button>
+                </div>
+            </div>
+
+        </fieldset>
+    </form>
+
+</body>
+</html>

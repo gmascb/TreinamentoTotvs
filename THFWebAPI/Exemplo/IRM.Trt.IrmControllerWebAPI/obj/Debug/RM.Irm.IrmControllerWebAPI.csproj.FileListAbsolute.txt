@@ -1,0 +1,20 @@
+C:\RM\Atual\Release\FrameHTML\Bin\roslyn\csc.exe
+C:\RM\Atual\Release\FrameHTML\Bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\RM\Atual\Release\FrameHTML\Bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\RM\Atual\Release\FrameHTML\Bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\RM\Atual\Release\FrameHTML\Bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\RM\Atual\Release\FrameHTML\Bin\roslyn\Microsoft.CSharp.Core.targets
+C:\RM\Atual\Release\FrameHTML\Bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\RM\Atual\Release\FrameHTML\Bin\roslyn\System.Collections.Immutable.dll
+C:\RM\Atual\Release\FrameHTML\Bin\roslyn\System.Reflection.Metadata.dll
+C:\RM\Atual\Release\FrameHTML\Bin\roslyn\vbc.exe
+C:\RM\Atual\Release\FrameHTML\Bin\roslyn\VBCSCompiler.exe
+C:\RM\Atual\Release\FrameHTML\Bin\roslyn\VBCSCompiler.exe.config
+C:\Treinamento\Treinamento - Publico\THFWebAPI\IRM.Trt.Veiculo.Data\IRM.Trt.IrmControllerWebAPI\obj\Debug\RM.Irm.IrmControllerWebAPI.csprojResolveAssemblyReference.cache
+C:\RM\Atual\Release\FrameHTML\Bin\RM.Irm.IrmControllerWebAPI.dll
+C:\RM\Atual\Release\FrameHTML\Bin\RM.Irm.IrmControllerWebAPI.pdb
+C:\Treinamento\Treinamento - Publico\THFWebAPI\IRM.Trt.Veiculo.Data\IRM.Trt.IrmControllerWebAPI\obj\Debug\RM.Irm.IrmControllerWebAPI.dll
+C:\Treinamento\Treinamento - Publico\THFWebAPI\IRM.Trt.Veiculo.Data\IRM.Trt.IrmControllerWebAPI\obj\Debug\RM.Irm.IrmControllerWebAPI.pdb
+C:\Treinamento\Treinamento - Publico\THFWebAPI\Exemplo\IRM.Trt.IrmControllerWebAPI\obj\Debug\RM.Irm.IrmControllerWebAPI.csprojResolveAssemblyReference.cache
+C:\Treinamento\Treinamento - Publico\THFWebAPI\Exemplo\IRM.Trt.IrmControllerWebAPI\obj\Debug\RM.Irm.IrmControllerWebAPI.dll
+C:\Treinamento\Treinamento - Publico\THFWebAPI\Exemplo\IRM.Trt.IrmControllerWebAPI\obj\Debug\RM.Irm.IrmControllerWebAPI.pdb

@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+ <html lang=”pt-br”>
+ <head>
+	<meta charset=”UTF-8”>	
+	<title>Exemplo HTML 3 - Componentes</title>
+ </head>
+ <body>
+<form id="Formulario">
+<fieldset>
+<legend>Formulario:</legend>
+
+<label for="btn">Button:</label><button>click</button>	<br/><br/>
+<label for="dtl">datalist:</label>
+<input list="dtl" name="browser">
+<datalist id="dtl">
+  <option value="Internet Explorer">
+  <option value="Firefox">
+  <option value="Chrome">
+  <option value="Opera">
+  <option value="Safari">
+</datalist>	<br/><br/>
+<label for="typebutton">input button:</label><input id="typebutton" type="button" value="botão"/><br/><br/>
+<label for="typecheckbox">input checkbox:</label><input id="typecheckbox" type="checkbox" /><br/><br/>
+<label for="typecolor">input color:</label><input id="typecolor" type="color" /><br/><br/>
+<label for="typedate">input date:</label><input id="typedate" type="date" /><br/><br/>
+<label for="typedatetime">input email :</label><input id="typedatetime" type="email"  /><br/><br/>
+<label for="typefile">input file:</label><input id="typefile" type="file" /><br/><br/>
+<label for="typehidden">input hidden:</label><input id="typehidden" type="hidden" /><br/><br/>
+<label for="typeimage">input image:</label><input id="typeimage" type="image" width="130px" height="50px" src="totvs.jpeg" alt="Totvs" /><br/><br/>
+<label for="typemonth">input month :</label><input id="typemonth" type="month" /><br/><br/>
+<label for="typenumber">input number :</label><input id="typenumber" type="number" /><br/><br/>
+<label for="typepassword">input password:</label><input id="typepassword" type="password" /><br/><br/>
+<label for="type">input radio:</label><input id="rabA" type="radio" name="radio" value="rad A"  /> <span for="rabA">RAD A </span><input id="rabB" type="radio" name="radio" value="rad B"/><span for="rabB"> RAD B</span> <br/><br/>
+<label for="typerange">input range:</label><input id="typerange" type="range" /><br/><br/>
+<label for="typesubmit">input submit:</label><input id="typesubmit" type="submit"  value="submit"/><br/><br/>
+<label for="typesearch">input search:</label><input id="typesearch" type="search" /><br/><br/>
+<label for="typetime">input time:</label><input id="typetime" type="time" /><br/><br/>
+<label for="typeurl">input url:</label><input id="typeurl" type="url" /><br/><br/>
+<label for="typeweek">input week:</label><input id="typeweek" type="week" /><br/><br/>
+<label for="idmeter"> meter:</label><meter id="idmeter" value="6" min="0" max="10">2 out of 10</meter><br><br/>
+<label for="idmeter"> Select:</label>
+<select id="TotvsSelect">
+  <optgroup label="Coordenadores">
+    <option value="volvo">Alaim</option>
+    <option value="saab">Elisangela</option>
+  </optgroup>
+  <optgroup label="Lideres">
+    <option value="mercedes">Jose Henrique</option>
+    <option value="audi">Silverio</option>
+  </optgroup>
+</select><br><br/>
+<label>progress:</label><progress></progress><br><br/>		
+<label>textarea:</label><textarea rows="4" cols="50"></textarea><br><br/>
+</fieldset>
+</form>
+ </body>
+</html>

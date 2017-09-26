@@ -1,0 +1,8 @@
+C:\RM\Atual\Release\Bin\RM.Irm.Veiculo.Inf.dll
+C:\RM\Atual\Release\Bin\RM.Irm.Veiculo.Inf.pdb
+C:\Treinamento\Treinamento - Publico\THFWebAPI\IRM.Trt.Veiculo.Data\IRM.Trt.Veiculo.Inf\obj\Debug\RM.Irm.Veiculo.Inf.dll
+C:\Treinamento\Treinamento - Publico\THFWebAPI\IRM.Trt.Veiculo.Data\IRM.Trt.Veiculo.Inf\obj\Debug\RM.Irm.Veiculo.Inf.pdb
+C:\Treinamento\Treinamento - Publico\THFWebAPI\IRM.Trt.Veiculo.Data\IRM.Trt.Veiculo.Inf\obj\Debug\RM.Irm.Veiculo.Inf.csprojResolveAssemblyReference.cache
+C:\Treinamento\Treinamento - Publico\THFWebAPI\Exemplo\IRM.Trt.Veiculo.Inf\obj\Debug\RM.Irm.Veiculo.Inf.csprojResolveAssemblyReference.cache
+C:\Treinamento\Treinamento - Publico\THFWebAPI\Exemplo\IRM.Trt.Veiculo.Inf\obj\Debug\RM.Irm.Veiculo.Inf.dll
+C:\Treinamento\Treinamento - Publico\THFWebAPI\Exemplo\IRM.Trt.Veiculo.Inf\obj\Debug\RM.Irm.Veiculo.Inf.pdb

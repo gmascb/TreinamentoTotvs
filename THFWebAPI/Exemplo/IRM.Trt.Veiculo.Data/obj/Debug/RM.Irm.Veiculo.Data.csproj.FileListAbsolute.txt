@@ -1,0 +1,12 @@
+C:\Treinamento\Treinamento - Publico\THFWebAPI\IRM.Trt.Veiculo.Data\IRM.Trt.Veiculo.Data\obj\Debug\RM.Irm.Veiculo.Data.csprojResolveAssemblyReference.cache
+C:\Treinamento\Treinamento - Publico\THFWebAPI\IRM.Trt.Veiculo.Data\IRM.Trt.Veiculo.Data\obj\Debug\RM.Irm.Veiculo.Data.csproj.GenerateResource.Cache
+C:\Treinamento\Treinamento - Publico\THFWebAPI\IRM.Trt.Veiculo.Data\IRM.Trt.Veiculo.Data\obj\Debug\RM.Irm.Veiculo.Data.Properties.Resources.resources
+C:\RM\Atual\Release\Bin\RM.Irm.Veiculo.Data.dll
+C:\RM\Atual\Release\Bin\RM.Irm.Veiculo.Data.pdb
+C:\Treinamento\Treinamento - Publico\THFWebAPI\IRM.Trt.Veiculo.Data\IRM.Trt.Veiculo.Data\obj\Debug\RM.Irm.Veiculo.Data.dll
+C:\Treinamento\Treinamento - Publico\THFWebAPI\IRM.Trt.Veiculo.Data\IRM.Trt.Veiculo.Data\obj\Debug\RM.Irm.Veiculo.Data.pdb
+C:\Treinamento\Treinamento - Publico\THFWebAPI\Exemplo\IRM.Trt.Veiculo.Data\obj\Debug\RM.Irm.Veiculo.Data.csprojResolveAssemblyReference.cache
+C:\Treinamento\Treinamento - Publico\THFWebAPI\Exemplo\IRM.Trt.Veiculo.Data\obj\Debug\RM.Irm.Veiculo.Data.Properties.Resources.resources
+C:\Treinamento\Treinamento - Publico\THFWebAPI\Exemplo\IRM.Trt.Veiculo.Data\obj\Debug\RM.Irm.Veiculo.Data.csproj.GenerateResource.Cache
+C:\Treinamento\Treinamento - Publico\THFWebAPI\Exemplo\IRM.Trt.Veiculo.Data\obj\Debug\RM.Irm.Veiculo.Data.dll
+C:\Treinamento\Treinamento - Publico\THFWebAPI\Exemplo\IRM.Trt.Veiculo.Data\obj\Debug\RM.Irm.Veiculo.Data.pdb

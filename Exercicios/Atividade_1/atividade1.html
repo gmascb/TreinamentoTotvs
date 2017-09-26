@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <meta charset="UTF-8">	
+        <title>Cadastro de Veículo</title>
+
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">     
+    </head>
+    <body>
+        <a href="menu.html"><p>Menu</p></a>
+        <ul class="list-group">
+            <li class="list-group-item"><a href="atividade1.html">Cadastro de Veículo</a></li>
+            <li class="list-group-item"><a href="atividade2.html">Pesquisa de Veículo</a></li>
+        </ul>
+
+        <form method="POST" action="menu.html" class="form-horizontal">
+                
+            <fieldset>
+
+                <legend><label class="title">Cadastro de Veículo</label></legend> <br />
+                
+                <div class="form-group">                        
+                    <label class="col-md-4 control-label" for="txtNome">Nome do Cliente: </label>
+                    <div class="col-md-5">                        
+                        <input id="txtNome" name="txtNome" type="text" class="form-control input-md" placeholder="Nome do Cliente"/>
+                        <span class="help-block">Ajuda</span>                        
+                    </div>            
+                </div>
+
+                <div class="form-group">                        
+                    <label class="col-md-4 control-label" for="txtPlaca">Placa: </label>
+                    <div class="col-md-5">                        
+                        <input id="txtPlaca" name="txtPlaca" type="text" class="form-control input-md" placeholder="Placa do Carro"/>
+                        <span class="help-block">Ajuda</span>      
+                    </div>            
+                </div>
+
+                <div class="form-group">                        
+                    <label class="col-md-4 control-label" for="sltCor">Cor: </label>
+                    <div class="col-md-4">   
+                        <select id="sltCor" name="sltCor"  class="form-control">
+                            <optgroup label="Cor Padrão" >
+                                <option value="preto" id="preto" style="background-color: black; color: white">Preto</option>
+                                <option value="cinza" id="cinza" style="background-color: gray; color: white">Cinza</option>
+                            </optgroup>
+                            <optgroup label="Cor Padronizado">
+                                <option value="azul" id="azul" style="background-color: blue; color: white">Azul</option>
+                                <option value="vermelho" id="vermelhor" style="background-color: red; color: white">Vermelh</option>
+                            </optgroup>    
+                        </select>                 
+                    </div>            
+                </div>
+
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="btn"></label>
+                    <div class="col-md-8">
+                            <button id="btn" name="btn" class="btn btn-success">Salvar</button>
+                            <button id="btnCancel" name="btnCancel" class="btn btn-danger">Cancelar</button>
+                    </div>
+                </div>    
+
+            </fieldset>
+                    
+        </form>
+    </body>
+</html>

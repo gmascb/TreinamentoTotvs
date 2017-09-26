@@ -1,0 +1,86 @@
+<!DOCTYPE HTML>
+<html lang="pt-br" ng-app="controllerApp">
+
+<head>
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="js/angular.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-toggle.min.css">
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="server/server_4.js"></script>
+    <script type="text/javascript" src="js/Exemplo_4.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap-toggle.min.js"></script>
+
+    <title>Exemplo de Angular - Eventos</title>
+</head>
+
+<body>
+    <div ng-controller="exemploController">
+        <fieldset>
+            <legend> Filtro de Empreendimentos</legend>
+            <span class="col-xs-6 col-sm-6 col-md-6 col-lg-6">  
+                <div class="input-group">
+                    <span class="input-group-addon">Nome</span>
+            <select ng-model="selectedUser" class="form-control" ng-options="x for x in ListUser" ng-change="changeUser()">
+<option hidden>Usuário</option>
+</select>
+    </div>
+    </span>
+
+    <span class="col-xs-6 col-sm-6 col-md-6 col-lg-6">   
+        <div class="input-group">
+                    <span class="input-group-addon">Empreendimento</span>
+    <select ng-model="selectedEmpreend" class="form-control" ng-options="x.empreendimento for x in ListEmpreendimentos" ng-change="changeEmpreendimentos()">
+<option hidden>Empreendimento</option>
+</select>
+    </div>
+    </span>
+
+    <br /><br /><br />
+
+    <label for="tbExtrato">Parcelas</label>
+    <table class="table" id="tbExtrato">
+        <thead>
+            <tr>
+                <th>Vencimento</th>
+                <th>Valor</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="item in ListParcelas" ng-dblclick="dividirParcela(item)">
+                <td>{{item.data}}</td>
+                <td>{{item.Valor | currency:'R$ '}}</td>
+                <td><span class="badge" ng-style="{'background-color': item.status=='pago' ? 'green': 'red'}">{{item.status}}</span></td>
+            </tr>
+        </tbody>
+    </table>
+    <div id="modalAlert" class="modal fade">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+                    <h4 class="modal-title">Parcelamento</h4>
+                </div>
+                <div class="modal-body">
+                    <p id="textErro">Quantas Parcelas?<input type="number" ng-model="divParc" width="2px" min="1" /></p>
+                    <p><input type="hidden" id="ItemArray" divparc="{{divParc}}" /></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal" ng-click="executarAlteracao()">Salvar</button>
+                </div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
+    </fieldset>
+    </div>
+</body>
+
+</html>

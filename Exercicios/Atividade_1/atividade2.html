@@ -1,0 +1,85 @@
+<html>
+    <head>
+        <meta charset="UTF-8">	
+        <title>Pesquisa de Veículo</title>
+
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">     
+    </head>
+    <body>
+        <a href="menu.html"><p>Menu</p></a>
+        <ul class="list-group">
+            <li class="list-group-item"><a href="atividade1.html">Cadastro de Veículo</a></li>
+            <li class="list-group-item"><a href="atividade2.html">Pesquisa de Veículo</a></li>
+        </ul>
+
+        <form action="atividade2.html" method="GET" class="form-horizontal">
+
+            <fieldset>
+                <legend><label class="title">Pesquisa de Veículo</label></legend>
+
+                    <div class="form-group">                        
+                        <label class="col-md-2 control-label" for="txtPesquisa">Pesquisar por: </label>
+                        <div class="col-md-10">    
+							<div class="col-md-2">
+								<select id="sltPesquisa" class="form-control input-md">
+									<option value="nome">Nome</option>
+									<option value="placa">Placa</option>
+									<option value="cor">Cor</option>
+								</select>	
+							</div>
+							<div class="col-md-5">
+								<input id="txtPesquisa" name="txtPesquisa" type="text" class="form-control input-md" placeholder="Nome do Cliente"/>  
+							</div>
+							<div class="col-md-2">
+								<input type="submit" id="btnPesquisar" name="btnPesquisar" value="Pesquisar" class="btn"/>
+							</div>
+                        </div>            
+                    </div>
+
+                    <label for="tbCarros"></label>      
+                    <table class="table" id="tbCarros" name="tbCarros">
+                        <thead>
+                            <tr>
+                                <th>Cliente</th>
+                                <th>Placa</th>
+                                <th>Cor</th>
+                                <th>Editar</th>
+                                <th>Excluir</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Thiago Alves</td>
+                                <td>MGKD-572</td>
+                                <td><label style="background-color: red; color: white">Vermelho</label></td>
+                                <td><a href="atividade1.html">Editar</a></td>
+                                <td><a href="excluir.html">Excluir</a></td>
+                            </tr>
+                            <tr>
+                                <td>Jonas Viada</td>
+                                <td>MGKD-524</td>
+                                <td><label style="background-color: black; color: white">Preto</label></td>
+                                <td><a href="atividade1.html">Editar</a></td>
+                                <td><a href="excluir.html">Excluir</a></td>
+                            </tr>
+                            <tr>
+                                <td>Geovane da Silva</td>
+                                <td>MLUD-572</td>
+                                <td><label style="background-color: gray; color: white">Cinza</label></td>
+                                <td><a href="atividade1.html">Editar</a></td>
+                                <td><a href="excluir.html">Excluir</a></td>
+                            </tr>
+                            <tr>
+                                <td>Higor de Jesus</td>
+                                <td>LFWD-575</td>
+                                <td><label style="background-color: blue; color: white">Azul</label></td>
+                                <td><a href="atividade1.html">Editar</a></td>
+                                <td><a href="excluir.html">Excluir</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+            </fieldset>
+        </form>
+
+    </body>
+</html>

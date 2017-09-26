@@ -1,0 +1,4 @@
+C:\RM\Atual\Release\Bin\IRM.Trt.Veiculo.Inf.dll
+C:\RM\Atual\Release\Bin\IRM.Trt.Veiculo.Inf.pdb
+C:\Treinamento\Treinamento - Publico\THFWebAPI\IRM.Trt.Veiculo.Data\IRM.Trt.Veiculo.Inf\obj\Debug\IRM.Trt.Veiculo.Inf.dll
+C:\Treinamento\Treinamento - Publico\THFWebAPI\IRM.Trt.Veiculo.Data\IRM.Trt.Veiculo.Inf\obj\Debug\IRM.Trt.Veiculo.Inf.pdb

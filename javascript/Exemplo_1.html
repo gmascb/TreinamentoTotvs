@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="js/Exemplo_1.js"></script>
+    <title>Exemplo de Javascript - Eventos</title>
+</head>
+
+<body>
+    <fieldset>
+        <legend> Calculo de Receita vs Despesa </legend>
+        <span class="col-xs-12 col-sm-12 col-md-12 col-lg-12">          
+                <div class="input-group">
+                    <span class="input-group-addon" id="spninput">Nome</span>
+        <input type="text" class="form-control" id="input" aria-describedby="basic-addon1" onchange="verificaNome('Nome','input')">
+        </div>
+        </span>
+        <br /> <br />
+        <span class="col-xs-12 col-sm-12 col-md-12 col-lg-12">   
+                <div class="input-group">
+                    <span class="input-group-addon" id="spaninput2">Sobrenome</span>
+        <input type="text" class="form-control" id="input2" aria-describedby="basic-addon1" onchange="verificaNome('Sobrenome','input2')">
+        </div>
+        </span>
+        <br /> <br />
+        <span class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+        <div class="input-group">
+            <span class="input-group-addon" id="spaninput3">R$</span>
+        <input type="text" class="form-control" id="input3" placeholder="Receita" aria-describedby="basic-addon1">
+        </div>
+        </span>
+        <span class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <div class="input-group">
+                <span class="input-group-addon" id="spaninput4">R$</span>
+        <input type="text" class="form-control" id="input4" placeholder="Despesa" aria-describedby="basic-addon1">
+        </div>
+        </span>
+        <br /> <br />
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <button type="button" class="btn btn-default" onclick="voltar()">Voltar</button>
+            <button type="button" class="btn btn-primary" onclick="Calular()">Calcular</button>
+        </div>
+        <br /> <br />
+
+    </fieldset>
+    <div role="alert" id="alert" style="display:none"></div>
+    <br /> <br />
+    <br /> <br />
+    <label for="tbTabela">Historico</label>
+    <table>
+        <thead>
+            <tr>
+                <th></th>
+            </tr>
+        </thead>
+
+        <tbody id="linhaBody">
+        </tbody>
+    </table>
+</body>
+
+</html>

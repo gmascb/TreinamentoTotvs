@@ -1,0 +1,106 @@
+<html>
+        <head>
+            <meta charset="UTF-8">	
+            <title>Cadastro de Veículo</title>
+    
+            <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">   
+            <script type="text/javascript" src="js/atividade1.js"></script>            
+        </head>
+        <body>    
+            <a href="menu.html"><p>Menu</p></a>
+            <ul class="list-group">
+                <li class="list-group-item"><a onclick="MostrarCadastro()" id="menuCadastro" name="menuCadastro" href="#">Ocultar Cadastro</a></li>
+                <li class="list-group-item"><a onclick="MostrarPesquisa()" id="menuPesquisa" name="menuPesquisa" href="#">Ocultar Pesquisa</a></li>
+            </ul>
+    
+            <form method="POST" action="#" class="form-horizontal">
+                
+                <div id="cadastro" name="cadastro">
+
+                <fieldset>
+    
+                    <legend><label class="title">Cadastro</label></legend> <br />
+                    
+                    <span class="col-xs-12 col-sm-12 col-md-12 col-lg-12">          
+                        <div class="input-group">
+                            <span class="input-group-addon" id="spninputEndereco">Endereço</span>
+                            <input type="text" class="form-control" id="inputEndereco" aria-describedby="basic-addon1">
+                        </div>
+                    </span><br /> <br />
+                    
+                    <span class="col-xs-12 col-sm-12 col-md-12 col-lg-12">          
+                        <div class="input-group">
+                            <span class="input-group-addon" id="spninputBairro">Bairro</span>
+                            <input type="text" class="form-control" id="inputBairro" aria-describedby="basic-addon1">
+                        </div>
+                    </span><br /> <br />
+
+                    <span class="col-xs-12 col-sm-12 col-md-12 col-lg-12">          
+                        <div class="input-group">
+                            <span class="input-group-addon" id="spninputCidade">Cidade</span>
+                            <input type="text" class="form-control" id="inputCidade" aria-describedby="basic-addon1">
+                        </div>
+                    </span><br /> <br />
+
+                    <span class="col-xs-12 col-sm-12 col-md-12 col-lg-12">          
+                        <div class="input-group">
+                            <span class="input-group-addon" id="spninputEstado">Estado</span>
+                            <input type="text" class="form-control" id="inputEstado" aria-describedby="basic-addon1">
+                        </div>
+                    </span><br /> <br />
+                    
+                    <span class="col-xs-12 col-sm-12 col-md-12 col-lg-12">          
+                        <div class="input-group">
+                            <span class="input-group-addon" id="spninputPais">Pais</span>
+                            <input type="text" class="form-control" id="inputPais" aria-describedby="basic-addon1">
+                        </div>
+                    </span><br /> <br /><br /> <br />
+    
+                    <div class="form-group">
+                        <label class="col-md-4 control-label" for="btn"></label>
+                        <div class="col-md-8">
+                                <button type="button" onclick="Cadastrar()" id="btn" name="btn" class="btn btn-success">Salvar</button>
+                                <button type="reset" onclick="Limpar()" id="btnCancel" name="btnCancel" class="btn btn-danger">Limpar</button>
+                        </div>
+                    </div> 
+    
+                </fieldset>
+
+                </div>
+
+                <div id="pesquisa" name="pesquisa">
+
+                <fieldset>
+                    
+                        <legend><label class="title">Pesquisa</label></legend> <br />
+
+                        <div class="form-group">                        
+                                <label class="col-md-4 control-label" for="sltPais">País: </label>
+                                <div class="col-md-4">   
+                                    <select onchange="Pesquisar()" id="sltPais" name="sltPais"  class="form-control">
+                                        <optgroup label="" id="pais" >
+                                            <option></option>
+                                        </optgroup>  
+                                    </select>                 
+                                </div>            
+                        </div>
+
+                        <label for="tbEndereco"></label>      
+                        <table class="table" id="tbEndereco" name="tbEndereco">
+                            <thead id="linhaHead">
+                                <tr>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody id="linhaBody">
+                                
+                            </tbody>
+                        </table>
+
+                </fieldset>
+
+                </div>
+                        
+            </form>
+        </body>
+    </html>

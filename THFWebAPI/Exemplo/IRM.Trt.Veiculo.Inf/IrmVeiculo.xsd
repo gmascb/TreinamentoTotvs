@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="IrmVeiculo" targetNamespace="http://tempuri.org/IrmVeiculo.xsd" xmlns:mstns="http://tempuri.org/IrmVeiculo.xsd" xmlns="http://tempuri.org/IrmVeiculo.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="IrmVeiculo" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="IrmVeiculo" msprop:Generator_UserDSName="IrmVeiculo">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="TRTVEICULO" msprop:Generator_TableClassName="TRTVEICULODataTable" msprop:Generator_TableVarName="tableTRTVEICULO" msprop:Generator_RowChangedName="TRTVEICULORowChanged" msprop:Generator_TablePropName="TRTVEICULO" msprop:Generator_RowDeletingName="TRTVEICULORowDeleting" msprop:Generator_RowChangingName="TRTVEICULORowChanging" msprop:Generator_RowEvHandlerName="TRTVEICULORowChangeEventHandler" msprop:Generator_RowDeletedName="TRTVEICULORowDeleted" msprop:Generator_RowClassName="TRTVEICULORow" msprop:Generator_UserTableName="TRTVEICULO" msprop:Generator_RowEvArgName="TRTVEICULORowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IDVEICULO" msprop:Generator_ColumnVarNameInTable="columnIDVEICULO" msprop:Generator_ColumnPropNameInRow="IDVEICULO" msprop:Generator_ColumnPropNameInTable="IDVEICULOColumn" msprop:Generator_UserColumnName="IDVEICULO" type="xs:int" />
+              <xs:element name="DESCRICAO" msprop:Generator_ColumnVarNameInTable="columnDESCRICAO" msprop:Generator_ColumnPropNameInRow="DESCRICAO" msprop:Generator_ColumnPropNameInTable="DESCRICAOColumn" msprop:Generator_UserColumnName="DESCRICAO" type="xs:string" minOccurs="0" />
+              <xs:element name="MARCA" msprop:Generator_ColumnVarNameInTable="columnMARCA" msprop:Generator_ColumnPropNameInRow="MARCA" msprop:Generator_ColumnPropNameInTable="MARCAColumn" msprop:Generator_UserColumnName="MARCA" type="xs:string" minOccurs="0" />
+              <xs:element name="MODELO" msprop:Generator_ColumnVarNameInTable="columnMODELO" msprop:Generator_ColumnPropNameInRow="MODELO" msprop:Generator_ColumnPropNameInTable="MODELOColumn" msprop:Generator_UserColumnName="MODELO" type="xs:string" minOccurs="0" />
+              <xs:element name="ANOFAB" msprop:Generator_ColumnVarNameInTable="columnANOFAB" msprop:Generator_ColumnPropNameInRow="ANOFAB" msprop:Generator_ColumnPropNameInTable="ANOFABColumn" msprop:Generator_UserColumnName="ANOFAB" type="xs:int" minOccurs="0" />
+              <xs:element name="ANOMOD" msprop:Generator_ColumnVarNameInTable="columnANOMOD" msprop:Generator_ColumnPropNameInRow="ANOMOD" msprop:Generator_ColumnPropNameInTable="ANOMODColumn" msprop:Generator_UserColumnName="ANOMOD" type="xs:int" minOccurs="0" />
+              <xs:element name="IDLOCALIDADE" msprop:Generator_ColumnVarNameInTable="columnIDLOCALIDADE" msprop:Generator_ColumnPropNameInRow="IDLOCALIDADE" msprop:Generator_ColumnPropNameInTable="IDLOCALIDADEColumn" msprop:Generator_UserColumnName="IDLOCALIDADE" type="xs:int" minOccurs="0" />
+              <xs:element name="CODESTADO" msprop:Generator_ColumnVarNameInTable="columnCODESTADO" msprop:Generator_ColumnPropNameInRow="CODESTADO" msprop:Generator_ColumnPropNameInTable="CODESTADOColumn" msprop:Generator_UserColumnName="CODESTADO" type="xs:string" minOccurs="0" />
+              <xs:element name="PRECO" msprop:Generator_ColumnVarNameInTable="columnPRECO" msprop:Generator_ColumnPropNameInRow="PRECO" msprop:Generator_ColumnPropNameInTable="PRECOColumn" msprop:Generator_UserColumnName="PRECO" type="xs:decimal" minOccurs="0" />
+              <xs:element name="VENDEDOR" msprop:Generator_ColumnVarNameInTable="columnVENDEDOR" msprop:Generator_ColumnPropNameInRow="VENDEDOR" msprop:Generator_ColumnPropNameInTable="VENDEDORColumn" msprop:Generator_UserColumnName="VENDEDOR" type="xs:string" minOccurs="0" />
+              <xs:element name="DATAATUALIZACAO" msprop:Generator_ColumnVarNameInTable="columnDATAATUALIZACAO" msprop:Generator_ColumnPropNameInRow="DATAATUALIZACAO" msprop:Generator_ColumnPropNameInTable="DATAATUALIZACAOColumn" msprop:Generator_UserColumnName="DATAATUALIZACAO" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="RECCREATEDBY" msprop:Generator_ColumnVarNameInTable="columnRECCREATEDBY" msprop:Generator_ColumnPropNameInRow="RECCREATEDBY" msprop:Generator_ColumnPropNameInTable="RECCREATEDBYColumn" msprop:Generator_UserColumnName="RECCREATEDBY" type="xs:string" minOccurs="0" />
+              <xs:element name="RECCREATEDON" msprop:Generator_ColumnVarNameInTable="columnRECCREATEDON" msprop:Generator_ColumnPropNameInRow="RECCREATEDON" msprop:Generator_ColumnPropNameInTable="RECCREATEDONColumn" msprop:Generator_UserColumnName="RECCREATEDON" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="RECMODIFIEDBY" msprop:Generator_ColumnVarNameInTable="columnRECMODIFIEDBY" msprop:Generator_ColumnPropNameInRow="RECMODIFIEDBY" msprop:Generator_ColumnPropNameInTable="RECMODIFIEDBYColumn" msprop:Generator_UserColumnName="RECMODIFIEDBY" type="xs:string" minOccurs="0" />
+              <xs:element name="RECMODIFIEDON" msprop:Generator_ColumnVarNameInTable="columnRECMODIFIEDON" msprop:Generator_ColumnPropNameInRow="RECMODIFIEDON" msprop:Generator_ColumnPropNameInTable="RECMODIFIEDONColumn" msprop:Generator_UserColumnName="RECMODIFIEDON" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="STATUS" msprop:Generator_ColumnVarNameInTable="columnSTATUS" msprop:Generator_ColumnPropNameInRow="STATUS" msprop:Generator_ColumnPropNameInTable="STATUSColumn" msprop:Generator_UserColumnName="STATUS" type="xs:boolean" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:TRTVEICULO" />
+      <xs:field xpath="mstns:IDVEICULO" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
