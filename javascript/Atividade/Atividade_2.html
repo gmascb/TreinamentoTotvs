@@ -1,0 +1,106 @@
+﻿<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Atividade 2</title>
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+    <script src="../js/jquery-3.1.1.min.js"></script>
+    <script src="atividade2.js"></script>
+</head>
+<body>
+    <form class="form-horizontal">
+        <fieldset>
+
+            <input id="txtId" type="hidden" value="-1" />
+            <!-- Form Name -->
+            <legend>Endereço</legend>
+
+            <!-- Text input-->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="txtEnd">Endereço</label>
+                <div class="col-md-4">
+                    <input id="txtEnd" name="txtEnd" type="text" placeholder="Endereço" class="form-control input-md" required>
+
+                </div>
+            </div>
+
+            <!-- Text input-->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="txtBairro">Bairro</label>
+                <div class="col-md-4">
+                    <input id="txtBairro" name="txtBairro" type="text" placeholder="Bairro" class="form-control input-md" required>
+
+                </div>
+            </div>
+
+            <!-- Text input-->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="txtCidade">Cidade</label>
+                <div class="col-md-4">
+                    <input id="txtCidade" name="txtCidade" type="text" placeholder="Cidade" class="form-control input-md" required>
+
+                </div>
+            </div>
+
+            <!-- Text input-->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="txtCidade">Estado</label>
+                <div class="col-md-4">
+                    <input id="txtEstado" name="txtEstado" type="text" placeholder="Estado" class="form-control input-md" required>
+
+                </div>
+            </div>
+
+            <!-- Select Basic -->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="slt_Pais">País</label>
+                <div class="col-md-4">
+                    <select id="slt_Pais" name="slt_Pais" class="form-control" required>
+                        <option value="1">Brasil</option>
+                        <option value="2">Argentina</option>
+                        <option value="3">Chile</option>
+                        <option value="4">Equador</option>
+                        <option value="5">Colômbia</option>
+                        <option value="6">Peru</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Button (Double) -->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="btnSalvar"></label>
+                <div class="col-md-8">
+                    <a id="btnSalvar" href="#" name="btnSalvar" class="btn btn-success">Incluir</a>
+                    <a id="btnEditar" href="#" name="btnEditar" class="btn btn-success" style="display:none">salvar</a>
+                    <a id="btnExbHistorico" href="#" name="btnHistorico" class="btn btn-warning">Exibir Endereços</a>
+                    <a id="btnOctEistorico" href="#" name="btnHistorico" class="btn btn-warning">Ocultar Endereços</a>
+                </div>
+            </div>
+
+            <div id="conteudo" class="table-container" hidden="hidden">
+
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="slt_PaisCad">Países cadastrados</label>
+                    <div class="col-md-4">
+                        <select id="slt_PaisCad" name="slt_PaisCad" class="form-control"></select>
+                    </div>
+                </div>
+
+                <table class="table table-filter">
+                    <thead>
+                        <tr>
+                            <th>Endereço</th>
+                            <th>Bairro</th>
+                            <th>Cidade</th>
+                            <th>Estado</th>
+                            <th>Excluir</th>
+                            <th>Editar</th>
+                        </tr>
+                    </thead>
+                    <tbody id="Corpotabela"></tbody>
+                </table>
+            </div>
+
+        </fieldset>
+    </form>
+</body>
+</html>

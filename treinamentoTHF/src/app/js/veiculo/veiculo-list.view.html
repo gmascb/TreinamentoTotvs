@@ -1,0 +1,109 @@
+<totvs-page type="list">
+
+    <totvs-page-navbar>
+
+        <totvs-page-breadcrumb>
+            <breadcrumb link="#/">
+                <span class="hidden-xs">{{ ::'l-home' | i18n : [] : 'js/veiculo' }}</span>
+                <span class="glyphicon glyphicon-home hidden-sm hidden-md hidden-lg"></span>
+            </breadcrumb>
+            <breadcrumb>
+                <span>{{ ::'l-veiculo' | i18n : [] : 'js/veiculo' }}</span>
+            </breadcrumb>
+        </totvs-page-breadcrumb>
+
+        <totvs-page-header>
+
+            <totvs-page-header-title title="{{ ::'l-veiculo' | i18n : [] : 'js/veiculo' }}"
+                                     total="{{ controller.recordsCount }}">
+            </totvs-page-header-title>
+
+            <totvs-page-header-operation>
+
+                <totvs-page-header-operation-action limit-primary-action="3"
+                                                    items="controller.records"
+                                                    items-as="customer">
+                    <action link="#/veiculo/new" icon="glyphicon-plus">
+                        {{ ::'btn-add' | i18n }}
+                    </action>
+                </totvs-page-header-operation-action>
+
+                <totvs-page-header-operation-filter placeholder="{{ ::'l-search' | i18n }}"
+                                                    ng-submit="controller.search()"
+                                                    ng-model="controller.searchText">
+                </totvs-page-header-operation-filter>
+
+            </totvs-page-header-operation>
+
+            <totvs-page-disclaimers disclaimer-list="controller.disclaimers"
+                                    ng-click="controller.removeDisclaimer">
+            </totvs-page-disclaimers>
+
+        </totvs-page-header>
+
+    </totvs-page-navbar>
+
+    <totvs-page-content>
+
+        <totvs-page-alert ng-if="controller.recordsCount === 0"
+                          type="info"
+                          message="{{ ::'l-msg-not-found' | i18n }}">
+        </totvs-page-alert>
+
+        <totvs-list-item ng-repeat="veiculo in controller.records track by veiculo.id">
+
+            <totvs-list-item-header>
+                <totvs-list-item-title title="{{ ::veiculo.DESCRICAO }}"
+                                       link="#/veiculo/detail/{{ ::veiculo.IDVEICULO }}">
+                </totvs-list-item-title>
+
+                <totvs-list-item-action limit-primary-action="2">
+                    <action link="#/veiculo/edit/{{ ::veiculo.IDVEICULO }}" icon="glyphicon-pencil">
+                        {{ ::'btn-edit' | i18n }}
+                    </action>
+                    <action ng-click="controller.onRemove(veiculo)" icon="glyphicon-trash">
+                        {{ ::'btn-remove' | i18n }}
+                    </action>
+                </totvs-list-item-action>
+            </totvs-list-item-header>
+
+            <totvs-list-item-content>
+                <totvs-list-item-info title="{{ ::'l-marca' | i18n : [] : 'js/veiculo'}}"
+                                      value="{{ ::veiculo.MARCA }}">
+                </totvs-list-item-info>
+
+                <totvs-list-item-info title="{{ ::'l-modelo' | i18n : [] : 'js/veiculo' }}"
+                                      value="{{ ::veiculo.MODELO }}">
+                </totvs-list-item-info>
+
+                <totvs-list-item-info title="{{ ::'l-anofab' | i18n : [] : 'js/veiculo' }}"
+                                      value="{{ ::veiculo.ANOFAB }}">
+                </totvs-list-item-info>
+
+                <totvs-list-item-info title="{{ ::'l-anomod' | i18n : [] : 'js/veiculo' }}"
+                                      value="{{ ::veiculo.ANOMOD }}">
+                </totvs-list-item-info>
+
+                <totvs-list-item-info title="{{ ::'l-cidade' | i18n : [] : 'js/veiculo' }}"
+                                      value="{{ ::veiculo.CIDADE }}">
+                </totvs-list-item-info>
+
+                <totvs-list-item-info title="{{ ::'l-estado' | i18n : [] : 'js/veiculo' }}"
+                                      value="{{ ::veiculo.ESTADO }}">
+                </totvs-list-item-info>
+
+                <totvs-list-item-info title="{{ ::'l-preco' | i18n : [] : 'js/veiculo' }}"
+                                      value="{{ ::veiculo.PRECO | currency }}">
+                </totvs-list-item-info>
+
+            </totvs-list-item-content>
+
+        </totvs-list-item>
+
+        <totvs-list-pagination ng-if="controller.records.length < controller.recordsCount && controller.records.length"
+                               ng-click="controller.loadRecords(true)">
+        </totvs-list-pagination>
+
+    </totvs-page-content>
+
+</totvs-page>

@@ -1,0 +1,81 @@
+<totvs-page type="detail">
+
+	<totvs-page-navbar>
+
+		<totvs-page-breadcrumb>
+            <breadcrumb link="#/">
+                <span class="hidden-xs">{{ ::'l-home' | i18n : [] : 'js/veiculo' }}</span>
+                <span class="glyphicon glyphicon-home hidden-sm hidden-md hidden-lg"></span>
+            </breadcrumb>
+            <breadcrumb link="#/veiculo">
+                <span>{{ ::'l-veiculo' | i18n : [] : 'js/veiculo' }}</span>
+            </breadcrumb>
+
+			<breadcrumb>Detalhe: {{ ::controller.veiculo.DESCRICAO }}</breadcrumb>
+		</totvs-page-breadcrumb>
+
+        <totvs-page-header>
+            <totvs-page-header-title title="{{ ::controller.veiculo.DESCRICAO }}"></totvs-page-header-title>
+
+            <totvs-page-header-operation>
+                <totvs-page-header-operation-action
+                    limit-primary-action="3"
+                    on-back-link="#/veiculo"
+                    on-edit-link="#/veiculo/edit/{{ ::controller.veiculo.IDVEICULO }}">
+				</totvs-page-header-operation-action>
+            </totvs-page-header-operation>
+        </totvs-page-header>
+
+    </totvs-page-navbar>
+
+	<totvs-page-content>
+		<totvs-page-detail>
+
+            <totvs-page-detail-info
+                class="col-xs-12 col-sm-6 col-md-3"
+                title="{{ ::'l-descricao' | i18n : [] : 'js/veiculo' }}">
+                {{ controller.veiculo.DESCRICAO }}
+            </totvs-page-detail-info>
+            <totvs-page-detail-info class="col-xs-12 col-sm-6 col-md-3"
+                                    title="{{ ::'l-marca' | i18n : [] : 'js/veiculo' }}">
+                {{ controller.veiculo.MARCA }}
+            </totvs-page-detail-info>
+            <totvs-page-detail-info class="col-xs-12 col-sm-6 col-md-3"
+                                    title="{{ ::'l-modelo' | i18n : [] : 'js/veiculo' }}">
+                {{ controller.veiculo.MODELO }}
+            </totvs-page-detail-info>
+            <totvs-page-detail-info class="col-xs-12 col-sm-6 col-md-3"
+                                    title="{{ ::'l-anofab' | i18n : [] : 'js/veiculo' }}">
+                {{ controller.veiculo.ANOFAB }}
+            </totvs-page-detail-info>
+            <totvs-page-detail-info class="col-xs-12 col-sm-6 col-md-3"
+                                    title="{{ ::'l-anomod' | i18n : [] : 'js/veiculo' }}">
+                {{ controller.veiculo.ANOMOD }}
+            </totvs-page-detail-info>
+            <totvs-page-detail-info class="col-xs-12 col-sm-6 col-md-3"
+                                    title="{{ ::'l-cidade' | i18n : [] : 'js/veiculo' }}">
+                {{ controller.veiculo.CIDADE }}
+            </totvs-page-detail-info>
+            <totvs-page-detail-info class="col-xs-12 col-sm-6 col-md-3"
+                                    title="{{ ::'l-estado' | i18n : [] : 'js/veiculo' }}">
+                {{ controller.veiculo.ESTADO }}
+            </totvs-page-detail-info>
+            <totvs-page-detail-info class="col-xs-12 col-sm-6 col-md-3"
+                                    title="{{ ::'l-preco' | i18n : [] : 'js/veiculo' }}">
+                {{ controller.veiculo.PRECO }}
+            </totvs-page-detail-info>
+            <totvs-page-detail-info class="col-xs-12 col-sm-6 col-md-3"
+                                    title="{{ ::'l-vendedor' | i18n : [] : 'js/veiculo' }}">
+                {{ controller.veiculo.VENDEDOR }}
+            </totvs-page-detail-info>
+            <totvs-page-detail-info class="col-xs-12 col-sm-6 col-md-3"
+                                    title="{{ ::'l-dataatualizacao' | i18n : [] : 'js/veiculo' }}">
+                {{ controller.veiculo.DATAATUALIZACAO | date:'dd/MM/yyyy' }}
+            </totvs-page-detail-info>
+
+            
+		</totvs-page-detail>
+
+    </totvs-page-content>
+
+</totvs-page>

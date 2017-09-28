@@ -1,0 +1,27 @@
+modo de instalação correta: https://github.com/devtotvs/generator-totvs-dev 
+
+i18n para cada pasta. i18n principal é para o site por completo (global).
+
+
+totvs-app
+.route = rota dos sites
+.module = adicionar todos os modulos na herarquia.
+.config = configuração do serviço de configuração. 
+	interceptos -> Intercepita todas as requisições. retorna mensagem para tratar.
+	i18nProvider -> caminho default do i18n
+
+totvs-desktop
+
+
+customers
+i18n -> tradutor somente deste module {algo especifico}
+module -> criação do module
+route -> criação das rotas das paginas
+controller -> controle da pagina + injeções
+facture -> acesso externo (serviço rest / webService)
+service -> externalizar uma função como serviço exposta a todos os módulos
+
+alterar caminho do i18n para a pasta certa no totvs.app-config.js
+
+BHN050103003
+BD12118

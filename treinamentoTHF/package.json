@@ -1,0 +1,17 @@
+{
+    "name": "treinamento",
+    "description": "Treinamento",
+    "version": "1.0.0",
+    "private": true,
+    "license": "Commercial",
+    "homepage": "www.totvs.com",
+    "author": {
+        "name": "TOTVS S/A",
+        "url": "www.totvs.com"
+    },
+    "scripts": {
+        "init": "npm install"
+    },
+    "dependencies": {},
+    "devDependencies": {}
+}
