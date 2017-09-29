@@ -18,3 +18,6 @@ C:\Treinamento\Treinamento - Publico\THFWebAPI\IRM.Trt.Veiculo.Data\IRM.Trt.IrmC
 C:\Treinamento\Treinamento - Publico\THFWebAPI\Exemplo\IRM.Trt.IrmControllerWebAPI\obj\Debug\RM.Irm.IrmControllerWebAPI.csprojResolveAssemblyReference.cache
 C:\Treinamento\Treinamento - Publico\THFWebAPI\Exemplo\IRM.Trt.IrmControllerWebAPI\obj\Debug\RM.Irm.IrmControllerWebAPI.dll
 C:\Treinamento\Treinamento - Publico\THFWebAPI\Exemplo\IRM.Trt.IrmControllerWebAPI\obj\Debug\RM.Irm.IrmControllerWebAPI.pdb
+C:\Treinamento\THFWebAPI\Exemplo\IRM.Trt.IrmControllerWebAPI\obj\Debug\RM.Irm.IrmControllerWebAPI.csprojResolveAssemblyReference.cache
+C:\Treinamento\THFWebAPI\Exemplo\IRM.Trt.IrmControllerWebAPI\obj\Debug\RM.Irm.IrmControllerWebAPI.dll
+C:\Treinamento\THFWebAPI\Exemplo\IRM.Trt.IrmControllerWebAPI\obj\Debug\RM.Irm.IrmControllerWebAPI.pdb
